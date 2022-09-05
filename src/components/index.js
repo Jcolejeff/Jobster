@@ -1,3 +1,6 @@
 import Logo from "./Logo";
 import FormRow from "./FormRow";
-export { Logo, FormRow };
+import SmallSidebar from "./SmallSidebar";
+import BigSidebar from "./BigSidebar";
+import Navbar from "./Navbar";
+export { Logo, FormRow, BigSidebar, SmallSidebar, Navbar };
