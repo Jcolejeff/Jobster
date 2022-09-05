@@ -1,5 +1,5 @@
 import Error from "./Error";
 import Register from "./Register";
 import Landing from "./Landing";
-
-export { Error, Landing, Register };
+import ProtectedRoute from "./ProtectedRoute";
+export { Error, Landing, Register, ProtectedRoute };
