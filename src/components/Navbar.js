@@ -32,7 +32,7 @@ const Navbar = () => {
 						}}
 					>
 						<FaUserCircle />
-						{user?.name}
+						<span className="user">{user?.name}</span>
 						<FaCaretDown />
 					</button>
 					<div
