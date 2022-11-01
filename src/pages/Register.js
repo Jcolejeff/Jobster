@@ -89,11 +89,11 @@ const Register = () => {
 					disabled={isLoading}
 					onClick={() => {
 						dispatch(
-							loginUser({ email: "testUser@test.com", password: "secret" })
+							loginUser({ email: "testing@gmail.com", password: 123456789 })
 						);
 					}}
 				>
-					{isLoading ? "loading..." : "demo"}
+					{isLoading ? "loading..." : "demo App"}
 				</button>
 				<p>
 					{values.isMember ? "Not a member yet?" : "Already a member?"}
