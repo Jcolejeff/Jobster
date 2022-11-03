@@ -1,5 +1,6 @@
 # Jobster
 
+An interview tracking app so you can keep track of all your job applications
 Project in Action - [Jobster](https://jobsterr.netlify.app/landing)
 
 #### Run The App Locally
