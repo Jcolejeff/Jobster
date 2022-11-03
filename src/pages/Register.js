@@ -89,7 +89,7 @@ const Register = () => {
 					disabled={isLoading}
 					onClick={() => {
 						dispatch(
-							loginUser({ email: "testing@gmail.com", password: 123456789 })
+							loginUser({ email: "testUser@test.com", password: "secret" })
 						);
 					}}
 				>
